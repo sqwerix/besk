@@ -1,0 +1,130 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding-top: 20vh;
+}
+
+header {
+  background-color: green;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main1 {
+  padding: 2rem;
+}
+
+	.bl {
+		width: auto;
+		height: auto;
+		text-align: center;
+	}
+	
+	.bl2 {
+		 max-width: 50%;
+		 max-height: 50%;
+		 text-align: center;
+	}
+
+	.lenaitor {
+	width: 100%;
+	height: auto;
+	max-width: 500px;
+	border-radius: 30px;
+	text-align: center;
+	}
+	.zadnyu {
+		width: 100%;
+		height: auto;
+		max-width: 100px;
+		border-radius: 30px;
+		text-align: center;
+	}
+	.sovenok {
+	width: auto;
+	height: auto;
+	text-align: center;
+	border-radius: 30px;
+	}
+	.jahz {
+	width: auto;
+	height: auto;
+	text-align: center;
+	border-radius: 30px;
+	}
+	h2 {
+	padding: 2rem;
+	font-size: 35px;
+	}
+
+opisanie {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  overflow-wrap: normal;
+}
+spisoknaz {
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+spisok {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+zagolovok {
+	font-size: 35px;
+	color: white;
+	text-align: center;
+
+	
+html {
+  scroll-behavior: smooth;
+}
+
+
